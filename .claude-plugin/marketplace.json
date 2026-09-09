@@ -1,0 +1,20 @@
+{
+  "name": "hook-probe-marketplace",
+  "version": "0.1.0",
+  "description": "Стенд проверки механизма хуков в разных обвязках Claude",
+  "owner": {
+    "name": "svaib"
+  },
+  "plugins": [
+    {
+      "name": "hook-probe",
+      "version": "0.1.0",
+      "description": "Зонд жизненного цикла: фиксирует срабатывание всех hook-событий и возвращает видимый эффект",
+      "author": {
+        "name": "svaib"
+      },
+      "source": "./plugins/hook-probe",
+      "tags": ["hooks", "diagnostics", "testing"]
+    }
+  ]
+}
