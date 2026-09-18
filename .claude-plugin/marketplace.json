@@ -14,7 +14,25 @@
         "name": "svaib"
       },
       "source": "./plugins/hook-probe",
-      "tags": ["hooks", "diagnostics", "testing"]
+      "tags": [
+        "hooks",
+        "diagnostics",
+        "testing"
+      ]
+    },
+    {
+      "name": "delivery-probe",
+      "version": "0.1.0",
+      "description": "Зонд доставки: скилл со скриптом, хуки и MCP",
+      "author": {
+        "name": "svaib"
+      },
+      "source": "./plugins/delivery-probe",
+      "tags": [
+        "delivery",
+        "plugins",
+        "testing"
+      ]
     }
   ]
 }

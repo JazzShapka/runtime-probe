@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "SessionStart": [ { "hooks": [ { "type": "command", "command": "echo DELIVERY-PROBE-SESSIONSTART" } ] } ],
+    "UserPromptSubmit": [ { "hooks": [ { "type": "command", "command": "echo DELIVERY-PROBE-USERPROMPT" } ] } ],
+    "PostToolUse": [ { "matcher": "Read|Glob|Grep|Bash", "hooks": [ { "type": "command", "command": "echo DELIVERY-PROBE-POSTTOOL" } ] } ]
+  }
+}
